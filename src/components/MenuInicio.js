@@ -9,7 +9,7 @@ export function MenuInicio(){
         <>
         <body className={estilo.main}>
         <header className={estilo.tamanio}>
-            <h1 className="titulos">Piedra, Papel o Tijera</h1>
+            <h1 className="titulos">¡Ahorcados!</h1>
         </header>
             <main>
                 <img className={estilo.imagenEdit}src={imagen} alt="imagen principal"/>
