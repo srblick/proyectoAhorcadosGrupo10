@@ -1,8 +1,10 @@
 import React from "react";
+import Cards from "./components/cards";
+
 
 function App() {
     return(
-        <h1>Hola Mundo!!!</h1>
+        <Cards/>
     );
 }
 export default App;
