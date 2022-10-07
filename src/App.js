@@ -1,10 +1,14 @@
 import React from "react";
-import Cards from "./components/cards";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {MenuInicio} from "./components/MenuInicio"
 
 function App() {
     return(
-        <Cards/>
+        <BrowserRouter>
+            <Routes>
+            <Route path="/" element={<MenuInicio/>} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 export default App;
