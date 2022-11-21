@@ -1,12 +1,14 @@
 import React from 'react';
+import {Button} from 'bootstrap';
   
-const Button = (props) => {
+const Boton = ({disable, manejarClick, children}) => {
   return (
-    <div className="btn" width="30px"
-        onClick={() => props.manejarClick(props.children)}>{props.children}
-    </div>
+    <button className="btn" 
+        style={{width: "40px", height: "40px", margin: "4px",}}
+        onClick={() => manejarClick(children)}>{children} {disable}
+    </button>
    );
 }
   
-export default Button;
+export default Boton;
 

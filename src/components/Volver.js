@@ -6,7 +6,7 @@ export default function Volver(){
     return(
         <Col md="4" className="text-center">
             <a href="/">
-                <button className={estilo.boton}>Volver</button>
+                <button className={estilo.botonVolver}>Volver</button>
             </a>
         </Col>
     );
